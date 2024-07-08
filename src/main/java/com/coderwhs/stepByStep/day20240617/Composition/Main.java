@@ -1,4 +1,4 @@
-package com.coderwhs.day20240617.Inheritance;
+package com.coderwhs.stepByStep.day20240617.Composition;
 
 /**
  * @Author wuhs
@@ -7,10 +7,10 @@ package com.coderwhs.day20240617.Inheritance;
  */
 public class Main {
   public static void main(String[] args) {
-    Shape redCircle = new RedCircle();
+    Shape redCircle = new Circle(new RedColor());
     redCircle.draw();
 
-    Shape blueRectangle = new BlueRectangle();
+    Shape blueRectangle = new Rectangle(new BlueColor());
     blueRectangle.draw();
   }
 }

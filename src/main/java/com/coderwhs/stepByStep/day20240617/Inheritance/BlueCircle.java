@@ -1,4 +1,4 @@
-package com.coderwhs.day20240617.Inheritance;
+package com.coderwhs.stepByStep.day20240617.Inheritance;
 
 class BlueCircle extends Circle {
     public void draw() {

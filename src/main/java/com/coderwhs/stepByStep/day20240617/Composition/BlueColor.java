@@ -1,4 +1,4 @@
-package com.coderwhs.day20240617.Composition;
+package com.coderwhs.stepByStep.day20240617.Composition;
 
 class BlueColor implements Color {
     public void applyColor() {

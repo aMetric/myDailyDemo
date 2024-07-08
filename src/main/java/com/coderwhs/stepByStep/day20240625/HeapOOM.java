@@ -1,4 +1,4 @@
-package com.coderwhs.day20240625;
+package com.coderwhs.stepByStep.day20240625;
 
 import java.util.ArrayList;
 import java.util.List;
